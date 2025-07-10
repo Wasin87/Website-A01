@@ -1,0 +1,130 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f1f3fc;
+}
+
+/* Background section */
+.hero-section {
+  background-image: url(image/Hero-bg.png); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4f46e5;
+}
+
+/* Buttons */
+.btn {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-small {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+/* Centered Content */
+.hero-content {
+  text-align: center;
+  margin-top: 80px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content h1 {
+  font-size: 38px;
+  color: #1f1f1f;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+ 
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f1f5ff;
+  padding: 40px;
+}
+
+/* Section Layout */
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  width: 1150px;
+  height: auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* Text content */
+.text-box {
+  flex: 1;
+  padding: 20px;
+}
+
+.text-box h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1f1f1f;
+}
+
+.text-box p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #4f46e5;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Image styling */
+.image-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  border: 1px dotted #0070f3;
+}
+
