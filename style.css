@@ -82,7 +82,7 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: #312e81;
+  background-color: #15a6ef;
   transform: scale(1.05);
 }
 
@@ -216,3 +216,55 @@ body {
 }
 
  
+.contact {
+  padding: 60px 20px;
+  background-color: #dfe2f9;
+  display: flex;
+  justify-content: space-between;
+}
+.let-text {
+  font-size: 40px;
+  margin: 80px;
+  
+}
+.contact form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+ 
+.footer {
+  padding: 30px 20px;
+  background-color: #f5f7fa;
+  text-align: center;
+    }
+
+.footer h2 {
+  font-size: 60px;
+  color: #4f46e5;
+  margin-bottom: 20px;
+    }
+.footer p {
+  color: #64748b;
+  margin-bottom: 20px;
+    }
+.footer nav a {
+  color: #64748b;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 14px;
+    }
+.footer nav a:hover {
+  text-decoration: underline;
+    }
+    
