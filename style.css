@@ -41,10 +41,10 @@ body {
  
 .btn, .btn-small, .btn-primary {
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  
 }
 
  
@@ -56,7 +56,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #3730a3;
+  background-color: #15a6ef;
   transform: scale(1.05);
 }
 
@@ -69,7 +69,7 @@ body {
 }
 
 .btn-small:hover {
-  background-color: #3730a3;
+  background-color: #15a6ef;
   transform: scale(1.05);
 }
 
@@ -136,7 +136,83 @@ body {
   max-width: 100%;
   height: auto;
   border-radius: 20px;
-  border: 1px dotted #0070f3;
+   
+}
+
+.stats {
+  text-align: center;
+  background-color: #e8e8fd;
+  padding: 20px 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.stats-grid div h3 {
+  font-size: 32px;
+  color: #4f46e5;
+}
+
+ 
+.testimonials {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonial-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.test-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-small-color {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.card-date-color {
+  font-size: 12px;
+  color: #718096;
 }
 
  
