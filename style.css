@@ -1,4 +1,4 @@
-/* Base Reset */
+ 
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   line-height: 1.6;
 }
 
-/* Hero section */
+ 
 .hero-section {
   background-image: url('image/Hero-bg.png');
   background-size: cover;
@@ -25,20 +25,20 @@ body {
   justify-content: space-between;
 }
 
-/* Navbar */
+ 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* Logo */
+ 
 .logo img {
   height: 40px;
   width: auto;
 }
 
-/* Buttons */
+ 
 .btn, .btn-small, .btn-primary {
   border: none;
   border-radius: 8px;
@@ -47,7 +47,7 @@ body {
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-/* Regular Button */
+ 
 .btn {
   background-color: #4f46e5;
   color: #fff;
@@ -60,7 +60,7 @@ body {
   transform: scale(1.05);
 }
 
-/* Small Button */
+ 
 .btn-small {
   background-color: #4f46e5;
   color: #fff;
@@ -73,7 +73,7 @@ body {
   transform: scale(1.05);
 }
 
-/* Primary Button */
+ 
 .btn-primary {
   background-color: #4338ca;
   color: white;
@@ -86,7 +86,7 @@ body {
   transform: scale(1.05);
 }
 
-/* Hero content */
+ 
 .hero-content {
   text-align: center;
   flex-grow: 1;
@@ -104,7 +104,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* Action Section */
+ 
 .action-section {
   display: flex;
   justify-content: space-between;
@@ -139,137 +139,4 @@ body {
   border: 1px dotted #0070f3;
 }
 
-/* Stats Section */
-.stats {
-  text-align: center;
-  background-color: #e8e8fd;
-  padding: 20px 40px;
-  border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 80%;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.stats-grid {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  margin-top: 30px;
-  flex-wrap: wrap;
-}
-
-.stats-grid div h3 {
-  font-size: 32px;
-  color: #4f46e5;
-}
-
-/* Testimonials */
-.testimonials {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.testimonial-grid {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-top: 30px;
-}
-
-.card {
-  background-color: #fff;
-  padding: 20px;
-  width: 280px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  text-align: left;
-}
-
-.reviewer {
-  display: flex;
-  align-items: center;
-  margin-top: 15px;
-  gap: 10px;
-}
-
-.test-photo {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.reviewer-info {
-  display: flex;
-  flex-direction: column;
-}
-
-.card-small-color {
-  font-weight: 600;
-  color: #2d3748;
-}
-
-.card-date-color {
-  font-size: 12px;
-  color: #718096;
-}
-
-/* Focus Section */
-.focus {
-  padding: 60px 20px;
-  text-align: center;
-  background-color: #eef2ff;
-}
-
-.focus img {
-  margin-top: 30px;
-  width: 100%;
-  max-width: 600px;
-  border-radius: 10px;
-}
-
-/* Contact Section */
-.contact {
-  padding: 60px 20px;
-  background-color: #ffffff;
-}
-
-.contact form {
-  max-width: 500px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.contact input,
-.contact textarea {
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  font-size: 16px;
-}
-
-/* Footer */
-.footer {
-  text-align: center;
-  background-color: #f5f8ff;
-  padding: 40px 20px;
-}
-
-.footer h1 {
-  color: #4f46e5;
-  margin-bottom: 10px;
-}
-
-.footer nav {
-  margin-top: 20px;
-}
-
-.footer nav a {
-  margin: 0 15px;
-  color: #333;
-  text-decoration: none;
-}
+ 
