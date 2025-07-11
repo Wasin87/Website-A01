@@ -247,24 +247,28 @@ body {
   padding: 30px 20px;
   background-color: #f5f7fa;
   text-align: center;
-    }
+}
 
 .footer h2 {
   font-size: 60px;
   color: #4f46e5;
   margin-bottom: 20px;
-    }
+}
+.footer-logo img {
+  height: 60px;
+  width: auto;
+}
 .footer p {
   color: #64748b;
   margin-bottom: 20px;
-    }
+}
 .footer nav a {
   color: #64748b;
   text-decoration: none;
   margin: 0 15px;
   font-size: 14px;
-    }
+}
 .footer nav a:hover {
   text-decoration: underline;
-    }
+}
     
