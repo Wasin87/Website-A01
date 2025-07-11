@@ -238,8 +238,9 @@ body {
 .contact input,
 .contact textarea {
   padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  width: 400px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
   font-size: 16px;
 }
  
